@@ -19,7 +19,8 @@
 		E4D533F3278948E000D11E63 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533EF278948E000D11E63 /* ImagePickerView.swift */; };
 		E4D533F4278948E000D11E63 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533F0278948E000D11E63 /* ActivityView.swift */; };
 		E4D533F5278948E000D11E63 /* EffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533F1278948E000D11E63 /* EffectView.swift */; };
-		E4D533F7278948F800D11E63 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533F6278948F800D11E63 /* CameraView.swift */; };
+		E4D533F7278948F800D11E63 /* _CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533F6278948F800D11E63 /* _CameraView.swift */; };
+		E4D533F9278E97EE00D11E63 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533F8278E97EE00D11E63 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +38,8 @@
 		E4D533EF278948E000D11E63 /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		E4D533F0278948E000D11E63 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		E4D533F1278948E000D11E63 /* EffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectView.swift; sourceTree = "<group>"; };
-		E4D533F6278948F800D11E63 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		E4D533F6278948F800D11E63 /* _CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _CameraView.swift; sourceTree = "<group>"; };
+		E4D533F8278E97EE00D11E63 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,8 @@
 		E4D533EB278948BB00D11E63 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				E4D533F6278948F800D11E63 /* CameraView.swift */,
+				E4D533F8278E97EE00D11E63 /* CameraView.swift */,
+				E4D533F6278948F800D11E63 /* _CameraView.swift */,
 				E4D533F0278948E000D11E63 /* ActivityView.swift */,
 				E4D533F1278948E000D11E63 /* EffectView.swift */,
 				E4D533EF278948E000D11E63 /* ImagePickerView.swift */,
@@ -173,9 +176,10 @@
 				E4D533F2278948E000D11E63 /* PHPickerView.swift in Sources */,
 				E4D533D62786E5F500D11E63 /* AppDelegate.swift in Sources */,
 				E4D533F3278948E000D11E63 /* ImagePickerView.swift in Sources */,
-				E4D533F7278948F800D11E63 /* CameraView.swift in Sources */,
+				E4D533F7278948F800D11E63 /* _CameraView.swift in Sources */,
 				E4D533F4278948E000D11E63 /* ActivityView.swift in Sources */,
 				E4D533ED278948CE00D11E63 /* UIImageExtension.swift in Sources */,
+				E4D533F9278E97EE00D11E63 /* CameraView.swift in Sources */,
 				E4D533D82786E5F500D11E63 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

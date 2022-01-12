@@ -64,9 +64,13 @@ class ViewController: UIViewController {
         setUpImageButton("reload", x: 35).addTarget(self, action: #selector(reladAction), for: .touchDown)
         setUpImageButton("reload", x: 100).addTarget(self, action: #selector(reladAction), for: .touchDown)
         bottomLabel(uiView, top,0.32, 25, text: "TOP", size: 10, weight: .bold, color: colors.black)
-        bottomLabel(uiView, camera,0.67, 25, text: "カメラ", size: 10, weight: .bold, color: colors.black)
+        bottomLabel(uiView, camera,0.67, 25, text: "share", size: 10, weight: .bold, color: colors.black)
 
 
+        
+        setUpButton("goCameraView", size: CGSize(width: 180, height: 35), y: 240, color: colors.blue, parentView: view).addTarget(self, action: #selector(goCameraView), for: .touchDown)
+
+        
     }
     func setUpImageButton(_ name: String, x: CGFloat) -> UIButton {
         let button = UIButton(type: .system)
@@ -104,6 +108,7 @@ class ViewController: UIViewController {
                 // インスタンスをビューに追加する
                 self.view.addSubview(webView)
     }
+
     
     func bottomLabel(_ parentView: UIView, _ label: UILabel, _ x: CGFloat, _ y: CGFloat, text: String, size: CGFloat, weight: UIFont.Weight, color: UIColor) {
         
@@ -116,7 +121,24 @@ class ViewController: UIViewController {
         label.center.x = view.center.x * x - 10
         parentView.addSubview(label)
         
+        
+    }
+    
+    func setUpButton(_ title: String, size: CGSize, y: CGFloat, color: UIColor, parentView: UIView) -> UIButton {
+        let button = UIButton(type: .system)
+        button.setTitle(title, for: .normal)
+        button.frame.size = size
+        button.center.x = view.center.x
+        let attributedTitle = NSAttributedString(string: title, attributes: [NSAttributedString.Key.kern: 8.0])
+        button.setAttributedTitle(attributedTitle, for: .normal)
+        button.frame.origin.y = y
+        button.setTitleColor(color, for: .normal)
+        parentView.addSubview(button)
+        return button
+    }
+    
+    @objc func goCameraView() {
+        performSegue(withIdentifier: "goCameraView", sender: nil)
     }
     
 }
- 
