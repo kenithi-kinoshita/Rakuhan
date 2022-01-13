@@ -7,43 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4D533D62786E5F500D11E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533D52786E5F500D11E63 /* AppDelegate.swift */; };
-		E4D533D82786E5F500D11E63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533D72786E5F500D11E63 /* SceneDelegate.swift */; };
-		E4D533DA2786E5F500D11E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533D92786E5F500D11E63 /* ViewController.swift */; };
-		E4D533DD2786E5F500D11E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D533DB2786E5F500D11E63 /* Main.storyboard */; };
-		E4D533DF2786E5F600D11E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D533DE2786E5F600D11E63 /* Assets.xcassets */; };
-		E4D533E22786E5F600D11E63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D533E02786E5F600D11E63 /* LaunchScreen.storyboard */; };
-		E4D533EA278815D200D11E63 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533E9278815D200D11E63 /* Colors.swift */; };
-		E4D533ED278948CE00D11E63 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533EC278948CE00D11E63 /* UIImageExtension.swift */; };
-		E4D533F2278948E000D11E63 /* PHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533EE278948E000D11E63 /* PHPickerView.swift */; };
-		E4D533F3278948E000D11E63 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533EF278948E000D11E63 /* ImagePickerView.swift */; };
-		E4D533F4278948E000D11E63 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533F0278948E000D11E63 /* ActivityView.swift */; };
-		E4D533F5278948E000D11E63 /* EffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533F1278948E000D11E63 /* EffectView.swift */; };
-		E4D533F7278948F800D11E63 /* _CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533F6278948F800D11E63 /* _CameraView.swift */; };
-		E4D533F9278E97EE00D11E63 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D533F8278E97EE00D11E63 /* CameraView.swift */; };
+		E4171F2F278FB09F0067A27C /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4171F28278FB09F0067A27C /* ImagePickerView.swift */; };
+		E4171F30278FB09F0067A27C /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4171F29278FB09F0067A27C /* ActivityView.swift */; };
+		E4171F31278FB09F0067A27C /* PHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4171F2A278FB09F0067A27C /* PHPickerView.swift */; };
+		E4171F32278FB09F0067A27C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4171F2B278FB09F0067A27C /* CameraView.swift */; };
+		E4171F33278FB09F0067A27C /* EffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4171F2C278FB09F0067A27C /* EffectView.swift */; };
+		E4171F34278FB09F0067A27C /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4171F2D278FB09F0067A27C /* UIImageExtension.swift */; };
+		E4A1FE33278EBCAB00EDA928 /* RakuhanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1FE32278EBCAB00EDA928 /* RakuhanApp.swift */; };
+		E4A1FE35278EBCAB00EDA928 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1FE34278EBCAB00EDA928 /* ContentView.swift */; };
+		E4A1FE37278EBCAC00EDA928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A1FE36278EBCAC00EDA928 /* Assets.xcassets */; };
+		E4A1FE3A278EBCAC00EDA928 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A1FE39278EBCAC00EDA928 /* Preview Assets.xcassets */; };
+		E4A1FE41278EBD2000EDA928 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1FE40278EBD2000EDA928 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E4D533D22786E5F500D11E63 /* Rakuhan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rakuhan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4D533D52786E5F500D11E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4D533D72786E5F500D11E63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4D533D92786E5F500D11E63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4D533DC2786E5F500D11E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E4D533DE2786E5F600D11E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E4D533E12786E5F600D11E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E4D533E32786E5F600D11E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4D533E9278815D200D11E63 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		E4D533EC278948CE00D11E63 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		E4D533EE278948E000D11E63 /* PHPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHPickerView.swift; sourceTree = "<group>"; };
-		E4D533EF278948E000D11E63 /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
-		E4D533F0278948E000D11E63 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
-		E4D533F1278948E000D11E63 /* EffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectView.swift; sourceTree = "<group>"; };
-		E4D533F6278948F800D11E63 /* _CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _CameraView.swift; sourceTree = "<group>"; };
-		E4D533F8278E97EE00D11E63 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		E4171F28278FB09F0067A27C /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		E4171F29278FB09F0067A27C /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		E4171F2A278FB09F0067A27C /* PHPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHPickerView.swift; sourceTree = "<group>"; };
+		E4171F2B278FB09F0067A27C /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		E4171F2C278FB09F0067A27C /* EffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectView.swift; sourceTree = "<group>"; };
+		E4171F2D278FB09F0067A27C /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		E4A1FE2F278EBCAB00EDA928 /* Rakuhan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rakuhan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A1FE32278EBCAB00EDA928 /* RakuhanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RakuhanApp.swift; sourceTree = "<group>"; };
+		E4A1FE34278EBCAB00EDA928 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4A1FE36278EBCAC00EDA928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4A1FE39278EBCAC00EDA928 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4A1FE40278EBD2000EDA928 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E4A1FE42278EC31600EDA928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E4D533CF2786E5F500D11E63 /* Frameworks */ = {
+		E4A1FE2C278EBCAB00EDA928 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,62 +47,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E4D533C92786E5F500D11E63 = {
+		E4171F27278FB08C0067A27C /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				E4D533D42786E5F500D11E63 /* Rakuhan */,
-				E4D533D32786E5F500D11E63 /* Products */,
+				E4171F2B278FB09F0067A27C /* CameraView.swift */,
+				E4171F29278FB09F0067A27C /* ActivityView.swift */,
+				E4171F2C278FB09F0067A27C /* EffectView.swift */,
+				E4171F28278FB09F0067A27C /* ImagePickerView.swift */,
+				E4171F2A278FB09F0067A27C /* PHPickerView.swift */,
+				E4171F2D278FB09F0067A27C /* UIImageExtension.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		E4A1FE26278EBCAB00EDA928 = {
+			isa = PBXGroup;
+			children = (
+				E4A1FE31278EBCAB00EDA928 /* Rakuhan */,
+				E4A1FE30278EBCAB00EDA928 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E4D533D32786E5F500D11E63 /* Products */ = {
+		E4A1FE30278EBCAB00EDA928 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4D533D22786E5F500D11E63 /* Rakuhan.app */,
+				E4A1FE2F278EBCAB00EDA928 /* Rakuhan.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E4D533D42786E5F500D11E63 /* Rakuhan */ = {
+		E4A1FE31278EBCAB00EDA928 /* Rakuhan */ = {
 			isa = PBXGroup;
 			children = (
-				E4D533EB278948BB00D11E63 /* Camera */,
-				E4D533D52786E5F500D11E63 /* AppDelegate.swift */,
-				E4D533D72786E5F500D11E63 /* SceneDelegate.swift */,
-				E4D533D92786E5F500D11E63 /* ViewController.swift */,
-				E4D533E9278815D200D11E63 /* Colors.swift */,
-				E4D533DB2786E5F500D11E63 /* Main.storyboard */,
-				E4D533DE2786E5F600D11E63 /* Assets.xcassets */,
-				E4D533E02786E5F600D11E63 /* LaunchScreen.storyboard */,
-				E4D533E32786E5F600D11E63 /* Info.plist */,
+				E4A1FE42278EC31600EDA928 /* Info.plist */,
+				E4A1FE32278EBCAB00EDA928 /* RakuhanApp.swift */,
+				E4A1FE34278EBCAB00EDA928 /* ContentView.swift */,
+				E4A1FE40278EBD2000EDA928 /* WebView.swift */,
+				E4171F27278FB08C0067A27C /* Camera */,
+				E4A1FE36278EBCAC00EDA928 /* Assets.xcassets */,
+				E4A1FE38278EBCAC00EDA928 /* Preview Content */,
 			);
 			path = Rakuhan;
 			sourceTree = "<group>";
 		};
-		E4D533EB278948BB00D11E63 /* Camera */ = {
+		E4A1FE38278EBCAC00EDA928 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				E4D533F8278E97EE00D11E63 /* CameraView.swift */,
-				E4D533F6278948F800D11E63 /* _CameraView.swift */,
-				E4D533F0278948E000D11E63 /* ActivityView.swift */,
-				E4D533F1278948E000D11E63 /* EffectView.swift */,
-				E4D533EF278948E000D11E63 /* ImagePickerView.swift */,
-				E4D533EE278948E000D11E63 /* PHPickerView.swift */,
-				E4D533EC278948CE00D11E63 /* UIImageExtension.swift */,
+				E4A1FE39278EBCAC00EDA928 /* Preview Assets.xcassets */,
 			);
-			path = Camera;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4D533D12786E5F500D11E63 /* Rakuhan */ = {
+		E4A1FE2E278EBCAB00EDA928 /* Rakuhan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4D533E62786E5F600D11E63 /* Build configuration list for PBXNativeTarget "Rakuhan" */;
+			buildConfigurationList = E4A1FE3D278EBCAC00EDA928 /* Build configuration list for PBXNativeTarget "Rakuhan" */;
 			buildPhases = (
-				E4D533CE2786E5F500D11E63 /* Sources */,
-				E4D533CF2786E5F500D11E63 /* Frameworks */,
-				E4D533D02786E5F500D11E63 /* Resources */,
+				E4A1FE2B278EBCAB00EDA928 /* Sources */,
+				E4A1FE2C278EBCAB00EDA928 /* Frameworks */,
+				E4A1FE2D278EBCAB00EDA928 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -116,25 +115,25 @@
 			);
 			name = Rakuhan;
 			productName = Rakuhan;
-			productReference = E4D533D22786E5F500D11E63 /* Rakuhan.app */;
+			productReference = E4A1FE2F278EBCAB00EDA928 /* Rakuhan.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E4D533CA2786E5F500D11E63 /* Project object */ = {
+		E4A1FE27278EBCAB00EDA928 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					E4D533D12786E5F500D11E63 = {
+					E4A1FE2E278EBCAB00EDA928 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = E4D533CD2786E5F500D11E63 /* Build configuration list for PBXProject "Rakuhan" */;
+			buildConfigurationList = E4A1FE2A278EBCAB00EDA928 /* Build configuration list for PBXProject "Rakuhan" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,71 +141,49 @@
 				en,
 				Base,
 			);
-			mainGroup = E4D533C92786E5F500D11E63;
-			productRefGroup = E4D533D32786E5F500D11E63 /* Products */;
+			mainGroup = E4A1FE26278EBCAB00EDA928;
+			productRefGroup = E4A1FE30278EBCAB00EDA928 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4D533D12786E5F500D11E63 /* Rakuhan */,
+				E4A1FE2E278EBCAB00EDA928 /* Rakuhan */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E4D533D02786E5F500D11E63 /* Resources */ = {
+		E4A1FE2D278EBCAB00EDA928 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4D533E22786E5F600D11E63 /* LaunchScreen.storyboard in Resources */,
-				E4D533DF2786E5F600D11E63 /* Assets.xcassets in Resources */,
-				E4D533DD2786E5F500D11E63 /* Main.storyboard in Resources */,
+				E4A1FE3A278EBCAC00EDA928 /* Preview Assets.xcassets in Resources */,
+				E4A1FE37278EBCAC00EDA928 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E4D533CE2786E5F500D11E63 /* Sources */ = {
+		E4A1FE2B278EBCAB00EDA928 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4D533F5278948E000D11E63 /* EffectView.swift in Sources */,
-				E4D533DA2786E5F500D11E63 /* ViewController.swift in Sources */,
-				E4D533EA278815D200D11E63 /* Colors.swift in Sources */,
-				E4D533F2278948E000D11E63 /* PHPickerView.swift in Sources */,
-				E4D533D62786E5F500D11E63 /* AppDelegate.swift in Sources */,
-				E4D533F3278948E000D11E63 /* ImagePickerView.swift in Sources */,
-				E4D533F7278948F800D11E63 /* _CameraView.swift in Sources */,
-				E4D533F4278948E000D11E63 /* ActivityView.swift in Sources */,
-				E4D533ED278948CE00D11E63 /* UIImageExtension.swift in Sources */,
-				E4D533F9278E97EE00D11E63 /* CameraView.swift in Sources */,
-				E4D533D82786E5F500D11E63 /* SceneDelegate.swift in Sources */,
+				E4171F2F278FB09F0067A27C /* ImagePickerView.swift in Sources */,
+				E4A1FE41278EBD2000EDA928 /* WebView.swift in Sources */,
+				E4171F32278FB09F0067A27C /* CameraView.swift in Sources */,
+				E4171F33278FB09F0067A27C /* EffectView.swift in Sources */,
+				E4171F31278FB09F0067A27C /* PHPickerView.swift in Sources */,
+				E4171F34278FB09F0067A27C /* UIImageExtension.swift in Sources */,
+				E4A1FE35278EBCAB00EDA928 /* ContentView.swift in Sources */,
+				E4171F30278FB09F0067A27C /* ActivityView.swift in Sources */,
+				E4A1FE33278EBCAB00EDA928 /* RakuhanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		E4D533DB2786E5F500D11E63 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4D533DC2786E5F500D11E63 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E4D533E02786E5F600D11E63 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4D533E12786E5F600D11E63 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		E4D533E42786E5F600D11E63 /* Debug */ = {
+		E4A1FE3B278EBCAC00EDA928 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +234,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_KEY_WKWatchOnly = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -268,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		E4D533E52786E5F600D11E63 /* Release */ = {
+		E4A1FE3C278EBCAC00EDA928 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,7 +289,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_KEY_WKWatchOnly = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -324,19 +299,23 @@
 			};
 			name = Release;
 		};
-		E4D533E72786E5F600D11E63 /* Debug */ = {
+		E4A1FE3E278EBCAC00EDA928 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rakuhan/Preview Content\"";
 				DEVELOPMENT_TEAM = 5GQXQKTLVL;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Rakuhan/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを利用します。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影した写真の保存に利用します。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -352,19 +331,23 @@
 			};
 			name = Debug;
 		};
-		E4D533E82786E5F600D11E63 /* Release */ = {
+		E4A1FE3F278EBCAC00EDA928 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rakuhan/Preview Content\"";
 				DEVELOPMENT_TEAM = 5GQXQKTLVL;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Rakuhan/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを利用します。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影した写真の保存に利用します。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -383,25 +366,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4D533CD2786E5F500D11E63 /* Build configuration list for PBXProject "Rakuhan" */ = {
+		E4A1FE2A278EBCAB00EDA928 /* Build configuration list for PBXProject "Rakuhan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4D533E42786E5F600D11E63 /* Debug */,
-				E4D533E52786E5F600D11E63 /* Release */,
+				E4A1FE3B278EBCAC00EDA928 /* Debug */,
+				E4A1FE3C278EBCAC00EDA928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4D533E62786E5F600D11E63 /* Build configuration list for PBXNativeTarget "Rakuhan" */ = {
+		E4A1FE3D278EBCAC00EDA928 /* Build configuration list for PBXNativeTarget "Rakuhan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4D533E72786E5F600D11E63 /* Debug */,
-				E4D533E82786E5F600D11E63 /* Release */,
+				E4A1FE3E278EBCAC00EDA928 /* Debug */,
+				E4A1FE3F278EBCAC00EDA928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E4D533CA2786E5F500D11E63 /* Project object */;
+	rootObject = E4A1FE27278EBCAB00EDA928 /* Project object */;
 }

@@ -1,39 +1,11 @@
 //
-//  File.swift
-//  Rakuhan
+//  ContentView.swift
+//  MyCamera
 //
-//  Created by 木下健一 on 2022/01/12.
+//  Created by 木下健一 on 2021/10/22.
 //
 
-import Foundation
 import SwiftUI
-import UIKit
-
-class CameraVC: UIViewController {
-    override func viewDidLoad(){
-        super.viewDidLoad()
-        
-let vc: UIHostingController = UIHostingController(rootView: CameraView())
-        self.addChild(vc)
-        self.view.addSubview(vc.view)
-        vc.didMove(toParent: self)
-        print("goCameraView")
-        
-        vc.view.translatesAutoresizingMaskIntoConstraints = false
-        vc.view.heightAnchor.constraint(equalToConstant: 320).isActive = true
-        vc.view.leftAnchor.constraint(equalTo: self.view.leftAnchor, constant: 16).isActive = true
-        vc.view.rightAnchor.constraint(equalTo: self.view.rightAnchor, constant: -16).isActive = true
-        vc.view.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
-    }
-}
-
-//struct SubView : View {
-//    var body: some View {
-//        Text("にゃーんなにこれ")
-//
-//    }
-//}
-
 
 struct CameraView: View {
     // 撮影する写真を保持する状態変数
@@ -128,3 +100,9 @@ struct CameraView: View {
         } // VStack end
     } // body end
 } // ContentView end
+
+struct CameraView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
