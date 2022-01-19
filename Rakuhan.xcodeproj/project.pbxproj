@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5334E09E473CBBFCD1AE8F68 /* Pods_Rakuhan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A027D93120FE098345274582 /* Pods_Rakuhan.framework */; };
 		E4171F2F278FB09F0067A27C /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4171F28278FB09F0067A27C /* ImagePickerView.swift */; };
 		E4171F30278FB09F0067A27C /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4171F29278FB09F0067A27C /* ActivityView.swift */; };
 		E4171F31278FB09F0067A27C /* PHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4171F2A278FB09F0067A27C /* PHPickerView.swift */; };
@@ -18,9 +19,13 @@
 		E4A1FE37278EBCAC00EDA928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A1FE36278EBCAC00EDA928 /* Assets.xcassets */; };
 		E4A1FE3A278EBCAC00EDA928 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A1FE39278EBCAC00EDA928 /* Preview Assets.xcassets */; };
 		E4A1FE41278EBD2000EDA928 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1FE40278EBD2000EDA928 /* WebView.swift */; };
+		E4E1655E2796A6CB00417FEA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1655D2796A6CB00417FEA /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8681D376C146E2D14041C3E1 /* Pods-Rakuhan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rakuhan.debug.xcconfig"; path = "Target Support Files/Pods-Rakuhan/Pods-Rakuhan.debug.xcconfig"; sourceTree = "<group>"; };
+		A027D93120FE098345274582 /* Pods_Rakuhan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rakuhan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BB44BD96084AFF133C695C /* Pods-Rakuhan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rakuhan.release.xcconfig"; path = "Target Support Files/Pods-Rakuhan/Pods-Rakuhan.release.xcconfig"; sourceTree = "<group>"; };
 		E4171F28278FB09F0067A27C /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		E4171F29278FB09F0067A27C /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		E4171F2A278FB09F0067A27C /* PHPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHPickerView.swift; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		E4A1FE39278EBCAC00EDA928 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4A1FE40278EBD2000EDA928 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		E4A1FE42278EC31600EDA928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E4E1655D2796A6CB00417FEA /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,12 +47,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5334E09E473CBBFCD1AE8F68 /* Pods_Rakuhan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35A48FA10FFD3DDDC8E48FF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8681D376C146E2D14041C3E1 /* Pods-Rakuhan.debug.xcconfig */,
+				E2BB44BD96084AFF133C695C /* Pods-Rakuhan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88877CC1FA0036C2F836149E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A027D93120FE098345274582 /* Pods_Rakuhan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E4171F27278FB08C0067A27C /* Camera */ = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +89,8 @@
 			children = (
 				E4A1FE31278EBCAB00EDA928 /* Rakuhan */,
 				E4A1FE30278EBCAB00EDA928 /* Products */,
+				35A48FA10FFD3DDDC8E48FF6 /* Pods */,
+				88877CC1FA0036C2F836149E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +107,7 @@
 			children = (
 				E4A1FE42278EC31600EDA928 /* Info.plist */,
 				E4A1FE32278EBCAB00EDA928 /* RakuhanApp.swift */,
+				E4E1655D2796A6CB00417FEA /* File.swift */,
 				E4A1FE34278EBCAB00EDA928 /* ContentView.swift */,
 				E4A1FE40278EBD2000EDA928 /* WebView.swift */,
 				E4171F27278FB08C0067A27C /* Camera */,
@@ -105,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4A1FE3D278EBCAC00EDA928 /* Build configuration list for PBXNativeTarget "Rakuhan" */;
 			buildPhases = (
+				883877DA92EA4E5992A3E350 /* [CP] Check Pods Manifest.lock */,
 				E4A1FE2B278EBCAB00EDA928 /* Sources */,
 				E4A1FE2C278EBCAB00EDA928 /* Frameworks */,
 				E4A1FE2D278EBCAB00EDA928 /* Resources */,
+				13DE9E55BD75165B6A8FDE06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +192,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13DE9E55BD75165B6A8FDE06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rakuhan/Pods-Rakuhan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rakuhan/Pods-Rakuhan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rakuhan/Pods-Rakuhan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		883877DA92EA4E5992A3E350 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rakuhan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4A1FE2B278EBCAB00EDA928 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -173,6 +244,7 @@
 				E4171F32278FB09F0067A27C /* CameraView.swift in Sources */,
 				E4171F33278FB09F0067A27C /* EffectView.swift in Sources */,
 				E4171F31278FB09F0067A27C /* PHPickerView.swift in Sources */,
+				E4E1655E2796A6CB00417FEA /* File.swift in Sources */,
 				E4171F34278FB09F0067A27C /* UIImageExtension.swift in Sources */,
 				E4A1FE35278EBCAB00EDA928 /* ContentView.swift in Sources */,
 				E4171F30278FB09F0067A27C /* ActivityView.swift in Sources */,
@@ -301,6 +373,7 @@
 		};
 		E4A1FE3E278EBCAC00EDA928 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8681D376C146E2D14041C3E1 /* Pods-Rakuhan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -333,6 +406,7 @@
 		};
 		E4A1FE3F278EBCAC00EDA928 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BB44BD96084AFF133C695C /* Pods-Rakuhan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

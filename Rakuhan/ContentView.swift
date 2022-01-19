@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+import GoogleMobileAds
+
+private weak var AdmobBannerView: GADBannerView!
 
 struct ContentView: View {
     
@@ -32,7 +35,7 @@ struct ContentView: View {
         VStack {
             
             ZStack {
-                
+                AdView().frame(width: 320, height: 50)
                 Spacer()
                     .fullScreenCover(isPresented: $shouldShowModal, content: {
                         Button(action:{shouldShowModal.toggle()}, label: {
@@ -107,9 +110,9 @@ struct ContentView: View {
                     .actionSheet(isPresented: $isShowAction) {
                         // ActionSheet を表示する
                         ActionSheet(title: Text("画像選択確認"),
-                                    message: Text("カメラで撮影するか\nフォトライブラリーから画像を選択してください"),
+                                    message: Text("画像を選択"),
                                     buttons: [
-                                        .default(Text("カメラ"), action: {
+                                        .default(Text("カメラで撮影"), action: {
                                             // カメラを選択
                                             isPhotolibrary = false
                                             // カメラが利用可能がチェック
@@ -122,7 +125,7 @@ struct ContentView: View {
                                             }
                                                 
                                         }),
-                                        .default(Text("フォトライブラリー"), action:  {
+                                        .default(Text("アルバムから選択"), action:  {
                                             // フォトライブラリーを選択
                                             isPhotolibrary = true
                                             // isShowSheetをtrue
@@ -136,6 +139,21 @@ struct ContentView: View {
             }
         }
     }
+}
+
+struct AdView: UIViewRepresentable {
+    func makeUIView(context: Context) -> GADBannerView {
+        let banner = GADBannerView(adSize: kGADAdSizeBanner)
+        // 下記はテスト専用広告ユニットID（バナー広告）。
+        banner.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        banner.rootViewController = UIApplication.shared.windows.first?.rootViewController
+        banner.load(GADRequest())
+        return banner
+    }
+
+    func updateUIView(_ uiView: GADBannerView, context: Context) {
+    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
