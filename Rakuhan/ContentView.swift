@@ -143,10 +143,14 @@ struct ContentView: View {
 
 struct AdView: UIViewRepresentable {
     func makeUIView(context: Context) -> GADBannerView {
-        let banner = GADBannerView(adSize: kGADAdSizeBanner)
+        let banner = GADBannerView(adSize: GADAdSizeBanner)
+
         // 下記はテスト専用広告ユニットID（バナー広告）。
         banner.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        banner.rootViewController = UIApplication.shared.windows.first?.rootViewController
+        
+        let scenes = UIApplication.shared.connectedScenes
+        let windowScene = scenes.first as? UIWindowScene
+        banner.rootViewController = windowScene?.windows.first?.rootViewController
         banner.load(GADRequest())
         return banner
     }
