@@ -29,14 +29,17 @@ struct ContentView: View {
     // ActionSheetモディファイアでの表示有無を管理する状態変数
     @State var isShowAction = false
     
-    let tabBarImageNames = ["chevron.left", "person", "camera", "pencil", "gear"]
+    let tabBarImageNames = ["person", /*"gear",*/ "pencil", "camera", "chevron.left", "arrow.counterclockwise"]
+    let webView = WebView(request: URLRequest(url: URL(string: "https://www.instagram.com/")!))
+//    let webView = WebView(request: URLRequest(url: URL(string: "http://www.google.com")!))
+//    let webView = WebView(request: URLRequest(url: URL(string: "https://twitter.com/home?lang=ja")!))
+//    let webView = WebView(request: URLRequest(url: URL(string: "https://cookpad.com/category/list")!))
+//    let webView = WebView(request: URLRequest(url: URL(string: "http://www.yoshikei-dvlp.co.jp/")!))
     
     var body: some View {
-        VStack {
-            
             ZStack {
+                VStack{
                 AdView().frame(width: 320, height: 50)
-                Spacer()
                     .fullScreenCover(isPresented: $shouldShowModal, content: {
                         Button(action:{shouldShowModal.toggle()}, label: {
                             Text("Fullscreen cover")
@@ -45,21 +48,14 @@ struct ContentView: View {
                 
                 switch selectedIndex {
                 case 0:
-                    NavigationView {
-                        Text("First Tab")
-                            .navigationTitle("First Tab")
-                    }
-                case 1:
-                    NavigationView {
-                        WebView(loadUrl: "https://www.instagram.com/")
-//                        WebView(loadUrl: "https://www.google.com/?hl=ja")
-//                        WebView(loadUrl: "https://twitter.com/home?lang=ja")
-//                        WebView(loadUrl: "https://cookpad.com/category/list")
-//                        WebView(loadUrl: "http://www.yoshikei-dvlp.co.jp/")
-                        Text("TEST")
-                }
+                        webView
+//                        Text("First Tab")
+//                            .navigationTitle("First Tab")
+
+                    
                 default:
                     Text("Remaining tabs")
+                }
                 }
             }
             Spacer()
@@ -74,6 +70,10 @@ struct ContentView: View {
                             captureImage = nil
                             // ActionSheet を表示する
                             isShowAction = true
+                        } else if num == 3 {
+                            self.webView.goBack()
+                        } else if num == 4 {
+                            self.webView.refresh()
                         } else {
                             selectedIndex = num
                         }
@@ -82,7 +82,7 @@ struct ContentView: View {
                     Spacer()
                     Image(systemName: tabBarImageNames[num])
                         .font(.system(size: 24, weight: .bold))
-                        .foregroundColor(selectedIndex == num ? Color(.black) : .init(white: 0.8))
+                        .foregroundColor(selectedIndex == num ? Color(.gray) : .init(white: 0.8))
                     Spacer()
                     })
                     // isPresentedで指定した状態変数がtrueのとき実行
@@ -110,7 +110,7 @@ struct ContentView: View {
                     .actionSheet(isPresented: $isShowAction) {
                         // ActionSheet を表示する
                         ActionSheet(title: Text("画像選択確認"),
-                                    message: Text("画像を選択"),
+//                                    message: Text("画像を選択"),
                                     buttons: [
                                         .default(Text("カメラで撮影"), action: {
                                             // カメラを選択
@@ -139,7 +139,7 @@ struct ContentView: View {
             }
         }
     }
-}
+
 
 struct AdView: UIViewRepresentable {
     func makeUIView(context: Context) -> GADBannerView {

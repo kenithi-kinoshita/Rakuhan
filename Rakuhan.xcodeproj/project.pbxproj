@@ -18,8 +18,8 @@
 		E4A1FE35278EBCAB00EDA928 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1FE34278EBCAB00EDA928 /* ContentView.swift */; };
 		E4A1FE37278EBCAC00EDA928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A1FE36278EBCAC00EDA928 /* Assets.xcassets */; };
 		E4A1FE3A278EBCAC00EDA928 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A1FE39278EBCAC00EDA928 /* Preview Assets.xcassets */; };
-		E4A1FE41278EBD2000EDA928 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1FE40278EBD2000EDA928 /* WebView.swift */; };
-		E4E1655E2796A6CB00417FEA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1655D2796A6CB00417FEA /* File.swift */; };
+		E4A1FE41278EBD2000EDA928 /* _WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1FE40278EBD2000EDA928 /* _WebView.swift */; };
+		E4E1655E2796A6CB00417FEA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1655D2796A6CB00417FEA /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +37,9 @@
 		E4A1FE34278EBCAB00EDA928 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4A1FE36278EBCAC00EDA928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4A1FE39278EBCAC00EDA928 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E4A1FE40278EBD2000EDA928 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E4A1FE40278EBD2000EDA928 /* _WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _WebView.swift; sourceTree = "<group>"; };
 		E4A1FE42278EC31600EDA928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		E4E1655D2796A6CB00417FEA /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		E4E1655D2796A6CB00417FEA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +107,11 @@
 			children = (
 				E4A1FE42278EC31600EDA928 /* Info.plist */,
 				E4A1FE32278EBCAB00EDA928 /* RakuhanApp.swift */,
-				E4E1655D2796A6CB00417FEA /* File.swift */,
+				E4E1655D2796A6CB00417FEA /* WebView.swift */,
 				E4A1FE34278EBCAB00EDA928 /* ContentView.swift */,
-				E4A1FE40278EBD2000EDA928 /* WebView.swift */,
 				E4171F27278FB08C0067A27C /* Camera */,
 				E4A1FE36278EBCAC00EDA928 /* Assets.xcassets */,
+				E4E2FE82279EE143009B3B79 /* No use */,
 				E4A1FE38278EBCAC00EDA928 /* Preview Content */,
 			);
 			path = Rakuhan;
@@ -123,6 +123,14 @@
 				E4A1FE39278EBCAC00EDA928 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4E2FE82279EE143009B3B79 /* No use */ = {
+			isa = PBXGroup;
+			children = (
+				E4A1FE40278EBD2000EDA928 /* _WebView.swift */,
+			);
+			path = "No use";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,11 +248,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4171F2F278FB09F0067A27C /* ImagePickerView.swift in Sources */,
-				E4A1FE41278EBD2000EDA928 /* WebView.swift in Sources */,
+				E4A1FE41278EBD2000EDA928 /* _WebView.swift in Sources */,
 				E4171F32278FB09F0067A27C /* CameraView.swift in Sources */,
 				E4171F33278FB09F0067A27C /* EffectView.swift in Sources */,
 				E4171F31278FB09F0067A27C /* PHPickerView.swift in Sources */,
-				E4E1655E2796A6CB00417FEA /* File.swift in Sources */,
+				E4E1655E2796A6CB00417FEA /* WebView.swift in Sources */,
 				E4171F34278FB09F0067A27C /* UIImageExtension.swift in Sources */,
 				E4A1FE35278EBCAB00EDA928 /* ContentView.swift in Sources */,
 				E4171F30278FB09F0067A27C /* ActivityView.swift in Sources */,

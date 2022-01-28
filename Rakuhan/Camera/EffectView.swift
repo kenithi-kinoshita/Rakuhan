@@ -106,7 +106,7 @@ struct EffectView: View {
                 // UIActivityViewControllerをモーダル表示する
                 isShowActivity = true
             }) {
-                Text("シェア")
+                Text("シェアする")
                     .frame(maxWidth: .infinity)
                     .frame(height: 50)
                     .multilineTextAlignment(.center)
